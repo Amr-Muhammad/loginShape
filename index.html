@@ -16,18 +16,18 @@
 
 <body>
 
-    <div class="container w-75 p-0" id="container">
+    <div class="container p-0" id="container">
 
         <div class="form-container sign-up-container d-flex justify-content-center h-100">
             <form class="d-flex justify-content-center flex-column w-75 align-items-center">
                 <h1>Create Account</h1>
-                <div class="social-container d-flex gap-2 text-center">
+                <div class="social-container d-flex gap-2 text-center my-2">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registration</span>
-                <div class="infield">
+                <div class="infield mt-2">
                     <input type="text" placeholder="Name" />
                     <label></label>
                 </div>
@@ -39,7 +39,7 @@
                     <input type="password" placeholder="Password" />
                     <label></label>
                 </div>
-                <button>Sign Up</button>
+                <button class="mt-2">Sign Up</button>
             </form>
         </div>
 
@@ -66,19 +66,18 @@
         </div>
 
         <div class="overlay-container h-100 text-white position-relative" id="overlayCon">
-            <div class="overlay">
-                <div class="overlay-panel w-100 overlay-left d-flex flex-column align-items-center">
+            <div class="overlay d-flex justify-content-center align-items-center">
+                <div class="overlay-panel overlay-left d-flex flex-column align-items-center">
                     <h1>Welcome Back!</h1>
                     <p>To keep connected with us please login with your personal info</p>
                     <button id="signIn">Sign In</button>
                 </div>
-                <div class="overlay-panel w-100 overlay-right d-flex flex-column align-items-center">
+                <div class="overlay-panel overlay-right d-flex flex-column align-items-center">
                     <h1>Hello, Friend!</h1>
                     <p>Enter your personal details and start journey with us</p>
                     <button id="signUp">Sign Up</button>
                 </div>
             </div>
-            <!-- <button id="overlayBtn"></button> -->
         </div>
 
     </div>
